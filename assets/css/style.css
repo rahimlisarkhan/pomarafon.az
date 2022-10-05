@@ -2,14 +2,22 @@
     1 - Header
 ------------------------------------*/
 @import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap"); */
+@font-face {
+  font-family: UltimaProBold;
+  src: url("../fonts/ultima-pro-cufonfonts/UltimaPro-Bold_0.otf");
+}
+@font-face {
+  font-family: UltimaProRegular;
+  src: url("../fonts/ultima-pro-cufonfonts/UltimaPro.otf");
+}
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: UltimaProBold;
 }
 
 header {
-  background-color: #e14d66;
+  background-color: #e24353;
   color: #fff;
   z-index: 1000;
 }
@@ -29,7 +37,7 @@ header::after {
 }
 
 .nav-link {
-  font-family: "Roboto", sans-serif;
+  font-family: UltimaProBold, sans-serif;
   text-transform: uppercase;
   font-size: 14px !important;
   padding: 5px !important;
@@ -388,7 +396,7 @@ html {
 .featured-img {
   position: relative;
   height: 530px;
-  margin-top: 60px;
+  /* margin-top: 60px; */
 }
 
 .featured-big {
@@ -626,7 +634,7 @@ html {
   font-size: 17px;
   padding-right: 50px;
   line-height: 1.6;
-  font-family: "Roboto", sans-serif;
+  font-family: UltimaProBold, sans-serif;
   background-color: rgba(255, 255, 255, 0.829) !important;
 }
 
@@ -904,7 +912,7 @@ span {
   border-radius: 2px;
   background-color: #363636;
   font-size: 14px;
-  font-family: "Roboto", sans-serif;
+  font-family: UltimaProBold, sans-serif;
   font-weight: 700;
   margin: 10px 10px 0 0;
 }
