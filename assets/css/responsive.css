@@ -17,10 +17,9 @@
   }
 
   .title .title-blue {
-    font-size: 22px !important;
+    font-size: 22px;
   }
 }
-
 @media (min-width: 576px) {
   .img-partner {
     height: 140px !important;
