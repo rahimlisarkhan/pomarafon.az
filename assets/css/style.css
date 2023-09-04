@@ -347,7 +347,7 @@ html {
 }
 
 .title .title-primary {
-  color: #ed901f;
+  color: #000;
 }
 
 .services {
@@ -849,7 +849,7 @@ footer {
 }
 
 .single-widget h6 {
-  color: #fff;
+  color: #000;
 }
 
 .single-widget .media {
