@@ -248,6 +248,7 @@ form button.btn-primary:hover {
   -webkit-clip-path: polygon(0 0, 100% 100%, 100% 0);
   clip-path: polygon(0 0, 100% 100%, 100% 0);
   background-color: #c6e6e0;
+  opacity: .4 !important;
   position: absolute;
   top: 0;
   left: 0;
